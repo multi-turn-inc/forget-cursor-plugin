@@ -1,0 +1,32 @@
+{
+  "name": "forget",
+  "displayName": "Forget",
+  "version": "0.2.0",
+  "description": "One long-term memory shared by all your AI tools. Each turn, the agent gets what you already told your other tools, with dates and sources, and the conversation is saved word for word. When memory has no evidence, it says so instead of guessing.",
+  "author": {
+    "name": "Multi-turn Inc.",
+    "email": "hello@forget.sh"
+  },
+  "publisher": "Multi-turn Inc.",
+  "homepage": "https://forget.sh",
+  "repository": "https://github.com/multi-turn-inc/forget-cursor-plugin",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "keywords": [
+    "memory",
+    "long-term-memory",
+    "context",
+    "mcp",
+    "agents",
+    "grok-bot"
+  ],
+  "tags": [
+    "memory",
+    "context",
+    "agents"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "mcpServers": "./mcp.json"
+}
