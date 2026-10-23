@@ -37,13 +37,14 @@ These limits are enforced on the server, not by the skill text.
 - **What passes through.** The connection server (`cloud.forget.sh`, hosted on Fly.io in the United States) forwards each request to your store. It does not keep request or response bodies. For limits and for your account page it records your account, the connected app, the tool name, and the time.
 - **What is saved.** Your messages and the agent's replies sent through `turn_context`, and notes the agent saves when you ask. Before anything is stored, the server removes things that look like passwords, API keys, tokens, card numbers and one-time codes. This is best effort, so avoid pasting secrets.
 - **Who else sees it.** Memories returned to an agent reach that agent's model provider, as with any tool result. Deep recall (`deep: true`) also sends the candidate memories for that question to Anthropic's API to write the cited answer.
-- **Disconnecting and deleting.** Disconnect any app from your Forget account page. To delete your memory or your account, see the [privacy policy](https://forget.sh/privacy).
+- **Disconnecting and deleting.** From your account page (`https://cloud.forget.sh/free/account`) you can disconnect any app, delete all of your memory, or delete your account.
+- **Model training.** Off by default. Your memory is used to improve Forget's memory models only if you turn that on in your account page, and you can turn it off at any time.
 
 Full details: [Privacy Policy](https://forget.sh/privacy) · [Terms](https://forget.sh/terms)
 
-## Price
+## Availability and price
 
-Forget Cloud is free, with fair-use limits per account.
+Forget Cloud is free, with fair-use limits per account. It is invite-only for now: sign-in asks for an invite code.
 
 ## Support
 
